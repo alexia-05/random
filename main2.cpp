@@ -651,7 +651,7 @@ void Library::addBook(std::istream& is)
     const int type = validateChoice("What do you want to add? (1 for Poetry and 2 for Novel)\n", 1, 2);
     if (type==-1)
         return;
-
+//ma blochez aici
     std::cout<<"Enter book details: \n";
     std::cout<<"Name: ";
     is>>name_;
